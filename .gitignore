@@ -1,0 +1,25 @@
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend y Node
+node_modules/
+.next/
+dist/
+build/
+
+# Rust y Tauri (Compilación muy pesada)
+target/
+src-tauri/target/
+
+# Variables de entorno y bases de datos locales
+.env
+*.db
+*.sqlite3
+
+# Editores e IDEs
+.vscode/
+.idea/
